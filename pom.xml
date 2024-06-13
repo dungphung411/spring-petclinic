@@ -13,7 +13,6 @@
     <version>3.3.0</version>
   </parent>
   <name>petclinic</name>
-
   <properties>
 
     <!-- Generic properties -->
