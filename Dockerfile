@@ -1,5 +1,5 @@
 FROM anapsix/alpine-java 
 LABEL maintainer="shanem@liatrio.com" 
 
-ADD D:/PROJECT/Gitclone/spring-petclinic1/target/*.jar  /home/*.jar  
+ADD ./target/*.jar  /home/*.jar  # COPY fails too
 CMD ["java","-jar","/home/*.jar"]
